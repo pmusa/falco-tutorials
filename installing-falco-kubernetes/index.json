@@ -1,0 +1,30 @@
+{
+  "title": "Tutorial: Install Falco on Kubernetes",
+  "description": "Learn how to install Falco on Kubernetes.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Install Falco on Kubernetes",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Verify Falco installation",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "Look at Falco logs",
+        "text": "step3/text.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
