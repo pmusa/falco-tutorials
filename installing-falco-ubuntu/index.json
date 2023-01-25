@@ -8,8 +8,7 @@
     "steps": [
       {
         "title": "Install Falco on Ubuntu",
-        "text": "step1/text.md",
-        "verify": "step1/verify.sh"
+        "text": "step1/text.md"
       },
       {
         "title": "Verify Falco installation",

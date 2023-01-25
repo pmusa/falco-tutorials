@@ -1,22 +1,22 @@
 There are different ways to access Falco logs in this installation:
 - journalctl
 - syslog
-- ???
 
 ### journalctl
 
 `jounalctl` allows us to interact with journald to inspect our services.
-
 Run the following command to retrieve Falco logs:
-```plain
+```bash
 journalctl -u falco
 ```{{exec}}
 
 ### syslog
 
-Blurb on syslog...
-
+Log messages describing Falco's activity are logged to syslog.
+Run the following command to retrieve Falco logs:
+```bash
 cat /var/log/syslog | grep falco
+```{{exec}}
 
 ### Generate a suspicious event
 
