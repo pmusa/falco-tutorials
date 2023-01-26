@@ -22,7 +22,7 @@ cat /var/log/syslog | grep falco
 
 Run the following command to simulate a suspicious event:
 ```bash
-cat /etc/shadow
+cat /etc/shadow > /dev/null
 ```{{exec}}
 
 Check the logs again with you preferred method to see the following warning:

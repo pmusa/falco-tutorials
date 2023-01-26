@@ -1,4 +1,5 @@
-Verify that Falcosidekcik is running correctly using the `kubectl` command:
+Verify that Falcosidekcik and Falcosidekick-UI are running correctly using
+the `kubectl` command:
 ```bash
 kubectl get pods -n falco
 ```{{exec}}

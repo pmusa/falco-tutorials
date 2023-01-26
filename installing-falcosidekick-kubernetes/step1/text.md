@@ -3,7 +3,7 @@ The current environment has Falco already running as described in the "Install F
 kubectl get pods -n falco
 ```{{exec}}
 
-Run the following command to install Falcosidekick:
+Run the following command to install Falcosidekick and Falcosidekick-UI:
 ```bash
 helm upgrade falco -n falco --set tty=true falcosecurity/falco \
   --set falcosidekick.enabled=true \
