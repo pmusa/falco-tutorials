@@ -6,7 +6,8 @@ kubectl port-forward svc/falco-falcosidekick-ui -n falco --address 0.0.0.0 2802 
 Now, click [here]({{TRAFFIC_HOST1_2802}}) to access the UI (use `admin:admin` to log in).
 Notice that there is already one event.
 Click on events to see the events detail.
-![Scan results](./assets/falcosidekick_events.jpg)
+
+![Scan results](./assets/falcosidekick_events.png)
 
 ### Event Generator
 

@@ -25,5 +25,4 @@ kubectl logs -l app.kubernetes.io/name=falcosidekick -n falco | grep "OK"
 The output should be similar to the following:
 ```output
 2023/01/26 12:28:16 [INFO]  : WebUI - Post OK (200)
-2023/01/26 12:29:54 [INFO]  : WebUI - Post OK (200)
 ```
