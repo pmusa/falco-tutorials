@@ -1,0 +1,34 @@
+{
+  "title": "Tutorial: Install Falcosidekick on Ubuntu",
+  "description": "Learn how to install Falcosidekick on Ubuntu.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Install Falcosidekick on Ubuntu",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Install Falcosidekick-UI on Ubuntu",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "Look at Falcosidekick logs",
+        "text": "step3/text.md"
+      },
+      {
+        "title": "Event generator and Falcosidekick-UI",
+        "text": "step4/text.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
