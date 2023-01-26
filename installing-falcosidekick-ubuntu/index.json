@@ -1,6 +1,6 @@
 {
   "title": "Tutorial: Install Falcosidekick on Ubuntu",
-  "description": "Learn how to install Falcosidekick on Ubuntu.",
+  "description": "Learn how to install Falcosidekick and Falcosidekick-UI on Ubuntu.",
   "details": {
     "intro": {
       "text": "intro.md",

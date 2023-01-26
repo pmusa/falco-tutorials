@@ -1,6 +1,6 @@
 {
   "title": "Tutorial: Install Falcosidekick on Kubernetes",
-  "description": "Learn how to install Falcosidekick on Kubernetes.",
+  "description": "Learn how to install Falcosidekick and Falcosidekick-UI on Kubernetes.",
   "details": {
     "intro": {
       "text": "intro.md",

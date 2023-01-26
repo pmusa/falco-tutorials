@@ -5,10 +5,10 @@ systemctl status falco
 ```{{exec}}
 
 There are two main steps to install Falcosidekick:
-- configure Falco output
+- Change Falco output
 - run Falcosidekick
 
-### Configure Falco output
+### Change Falco output
 
 Using the a text editor of your choice or the editor tab, update the
 `/etc/falco/falco.yaml` file to have following settings:
@@ -19,6 +19,11 @@ http_output:
   enabled: true
   url: http://localhost:2801
 ```
+
+Restart Falco:
+```bash
+systemctl restart falco
+```{{exec}}
 
 ### Run Falcosidekick
 
@@ -31,7 +36,7 @@ tar -zxf falcosidekick_2.27.0_linux_amd64.tar.gz
 
 Set the `WEBUI_URL` environment varibale and execute the Falcosidekick binary:
 ```bash
-WEBUI_URL=localhost:2802 ./falcosidekick
+WEBUI_URL=http://localhost:2802 ./falcosidekick
 ```{{exec}}
 
 Falcosidekick output should like the following:
