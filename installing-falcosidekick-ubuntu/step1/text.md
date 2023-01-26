@@ -1,5 +1,5 @@
 The current environment has Falco already running as described in the
-"Install Falco on Ubuntu" tutorial:
+"Install Falco on Ubuntu" tutorial (you might need to wait a few seconds):
 ```bash
 systemctl status falco
 ```{{exec}}

@@ -22,7 +22,7 @@ docker run -d --network="host" --name falcosidekick-ui falcosecurity/falcosideki
 Check if it is working aas expected:
 ```bash
 docker logs falcosidekick-ui
-```
+```{{exec}}
 
 Falcosidekick-UI output should look like the following:
 ```output
